@@ -1,0 +1,30 @@
+# Ignore local build directories
+target/
+*.jar
+*.war
+
+# Ignore Maven portable configurations and caches
+.maven-portable/
+.mvn/
+mvnw
+mvnw.cmd
+
+# Ignore IDE configurations
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore version control
+.git/
+.gitignore
+
+# Ignore Docker files
+Dockerfile
+.dockerignore
+docker-compose*
