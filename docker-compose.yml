@@ -27,7 +27,7 @@ services:
   # ==========================================
   backend:
     build:
-      context: ./backend-spring
+      context: .
       dockerfile: Dockerfile
     container_name: auto-litsenziya-backend
     ports:
